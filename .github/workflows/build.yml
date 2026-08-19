@@ -1,4 +1,4 @@
-name: Build OptimizedInventory
+name: Build
 
 on:
   push:
@@ -27,6 +27,6 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: OptimizedInventory-levipack
+          name: BedrockTools-levipack
           path: build/android/arm64-v8a/release/OptimizedInventory.levipack
           if-no-files-found: error
